@@ -28,9 +28,9 @@ local on_attach = function(client, bufnr)
   buf_set_keymap("n", "<space>f", "<cmd>lua vim.lsp.buf.formatting()<CR>", opts)
 end
 
--- auto format on save but only for filenames that are Deckerfile
+-- auto format on save but only for filenames that are Dockerfile
 vim.cmd 'autocmd BufWritePre *Dockerfile lua vim.lsp.buf.formatting_sync(nil, 100)'
 
 require('lspconfig').dockerls.setup {
   on_attach = on_attach
-}n
+}
