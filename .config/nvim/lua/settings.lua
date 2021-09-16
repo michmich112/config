@@ -26,3 +26,4 @@ utils.opt('w', 'nu', true) -- display line numbers
 utils.opt('o', 'undodir', "~/.nvim/undo")
 utils.opt('o', 'lazyredraw', true)
 utils.opt('o', 'autowrite', true)
+
