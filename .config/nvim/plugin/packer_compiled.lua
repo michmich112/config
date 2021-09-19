@@ -105,6 +105,10 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/michel/.local/share/nvim/site/pack/packer/start/nvim-lspconfig"
   },
+  ["nvim-treesitter"] = {
+    loaded = true,
+    path = "/Users/michel/.local/share/nvim/site/pack/packer/start/nvim-treesitter"
+  },
   ["packer.nvim"] = {
     loaded = false,
     needs_bufread = false,

@@ -55,5 +55,8 @@ return require('packer').startup(function()
   
   -- Go development
   use { 'fatih/vim-go' }
+  
+  -- Svelte development
+  use { 'evanleck/vim-svelte' }
 
 end)
